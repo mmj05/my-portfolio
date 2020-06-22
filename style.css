@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+/* Header background color, margin and border */
+header {
+  background-color: #FDE281;
+  margin-bottom: 0;
+  border: 0px;
+}
+/* Style header h1 element */
+header h1 {
+  font-family: "Courier new", "Roboto slab";
+  font-size: 56px;
+  color: #342B09;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+/* Style header p element */
+header p {
+  font-family: "Courier new", "Roboto slab";
+  font-size: 30px;
+  font-weight: 700;
+  color: #342B09;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+/* Background-color of main */
+main {
+  background-color:#FEF7DC;
+}
+/* Create grid, set row-size, padding */
+.grid-container {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  justify-content: space-evenly;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+/* Style .intro */
+.intro {
+  align-self: center;
+  justify-self: center;
+  padding-left: 10px;
+  padding-bottom: 60px;
+}
+/* Style .intro h3 */
+.intro h3 {
+  font-family: "Roboto slab", "Courier new";
+  color: #342B09;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: left;
+}
+/* Style .intro p,ul */
+.intro p,ul {
+  font-family: "Roboto slab", "Courier new";
+  font-size: 16px;
+  font-weight: 500;
+  color: #342B09;
+  text-align: left;
+  line-height: 24px;
+}
+
+.image {
+  align-self: center;
+  justify-self: center;
+}
+/* Style img */
+.image img {
+  border:1px solid #021a40;
+  border-radius: 10px;
+}
+/* Style .about */
+.about {
+  align-self: center;
+  justify-self: center;
+  padding-right: 0;
+  width: 33%;
+  padding-top: 60px;
+}
+/* Style .about h3 */
+.about h3 {
+  font-family: "Roboto slab", "Courier new";
+  color: #342B09;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  padding-right: 20px;
+}
+/* Style .about p */
+.about p {
+  font-family: "Roboto slab", "Courier new";
+  font-size: 16px;
+  font-weight: 500;
+  color: #342B09;
+  text-align: center;
+  line-height: 24px;
+  
+}
+/* Style hr */
+hr {
+  display: block;
+  width: 40%;
+  margin: auto;
+  border: none;
+  height: 40px;
+  background-image:url('images/hr-graphic.png ');
+}
+/* Style .contact */
+.contact {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+/* Style .contact h3 */
+.contact h3 {
+  font-family: "Roboto slab", "Courier new";
+  color: #342B09;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+}
+/* Style .contact p */
+.contact p{
+  font-family: "Roboto slab", "Courier new";
+  color: #342B09;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding-left: auto;
+}
+/* Style .contact ol */
+.contact ol {
+  list-style-position: inside;
+  font-family: "Roboto slab", "Courier new";
+  text-align: center;
+  color: #342B09;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 0;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+}
+/* Style .contact a */
+.contact a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Link colors */
+.contact a:link    { color: #B08A03;   }
+.contact a:visited { color: #7e6302;   }
+.contact a:hover   { text-decoration: underline; }
+.contact a:active  { color: #fbc604;  }
+/* Style footer */
+footer {
+  background-color: #342B09;
+  margin: 0;
+  border: 0px;
+  height: 100px;
+}
+/* Style footer p */
+footer p {
+  text-align: center;
+  color: #FDE281;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 40px;
+  margin-top: 0;
+}
