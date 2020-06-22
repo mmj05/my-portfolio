@@ -123,6 +123,7 @@ hr {
   font-size: 23px;
   font-weight: 700;
   text-align: center;
+  padding-right: 10px;
 }
 /* Style .contact p */
 .contact p{
