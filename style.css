@@ -36,15 +36,14 @@ main {
   display: grid;
   grid-template-rows: 33% 33% 33%;
   justify-content: space-evenly;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 0px;
+  padding-bottom: 150px;
 }
 /* Style .intro */
 .intro {
   align-self: center;
   justify-self: center;
   padding-left: 10px;
-  padding-bottom: 60px;
 }
 /* Style .intro h3 */
 .intro h3 {
@@ -89,6 +88,7 @@ main {
   font-weight: 700;
   text-align: center;
   padding-right: 20px;
+  padding-top: 100px;
 }
 /* Style .about p */
 .about p {
